@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.example.utsmobile"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -50,4 +50,5 @@ dependencies {
 
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
 }
